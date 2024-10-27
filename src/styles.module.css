@@ -7,3 +7,44 @@
   font-size: 2em;
   text-align: center;
 }
+/* styles.module.css */
+.button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button--primary {
+  background: linear-gradient(45deg, seagreen, mediumseagreen);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+
+}
+.button--primary:hover {
+  background: linear-gradient(45deg, mediumseagreen, seagreen);
+}
+.button--default {
+  background-color: gray;
+  color: white;
+}
+.button--link {
+  background-color: transparent;
+  color: black;
+  text-decoration: underline;
+  padding: 5px;
+}
+.button--dashed {
+  background-color: gray;
+  color: white;
+  border: dashed;
+}
+.button--text {
+  background-color: gray;
+  color: white;
+}
+
